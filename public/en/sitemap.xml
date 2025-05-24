@@ -2,54 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/fukamin_page/en/</loc>
+    <loc>//localhost:1313/en/</loc>
     <lastmod>2025-05-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/fukamin_page/"
+                href="//localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fukamin_page/en/"
+                href="//localhost:1313/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fukamin_page/en/about/</loc>
+    <loc>//localhost:1313/en/about/</loc>
     <lastmod>2025-05-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/fukamin_page/about/"
+                href="//localhost:1313/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fukamin_page/en/about/"
+                href="//localhost:1313/en/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fukamin_page/en/categories/</loc>
+    <loc>//localhost:1313/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/fukamin_page/categories/"
+                href="//localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fukamin_page/en/categories/"
+                href="//localhost:1313/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fukamin_page/en/tags/</loc>
+    <loc>//localhost:1313/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/fukamin_page/tags/"
+                href="//localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/fukamin_page/en/tags/"
+                href="//localhost:1313/en/tags/"
                 />
   </url>
 </urlset>
