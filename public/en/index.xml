@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terminal</title>
-    <link>//localhost:1313/en/</link>
+    <link>http://localhost:1313/fukamin_page/en/</link>
     <description>Recent content on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 24 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/fukamin_page/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>//localhost:1313/en/about/</link>
+      <link>http://localhost:1313/fukamin_page/en/about/</link>
       <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/about/</guid>
+      <guid>http://localhost:1313/fukamin_page/en/about/</guid>
       <description>Satoshi Fukami&amp;rsquo;s Page I&amp;rsquo;m a master&amp;rsquo;s student at Kyushu Institute of Techonology. I&amp;rsquo;m doing research at the intersection of neuroscience, nonlinear dynamics, and information science. I like Neovim and Julia</description>
     </item>
   </channel>
