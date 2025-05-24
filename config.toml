@@ -83,7 +83,7 @@ pagination.pagerSize = 5
     title = "Terminal"
 
     [languages.en.params]
-      subtitle = "A simple, retro theme for Hugo"
+      #subtitle = "A simple, retro theme for Hugo"
       owner = ""
       keywords = ""
       copyright = ""

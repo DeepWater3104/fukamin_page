@@ -6,13 +6,14 @@
     <description>Recent content on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Sat, 24 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>About</title>
       <link>//localhost:1313/en/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/en/about/</guid>
-      <description>Satoshi Fukami&amp;rsquo;s Page I&amp;rsquo;m Satoshi Fukami, a master&amp;rsquo;s student at Kyushu Institute of Techonology. My major is computational neuroscience.</description>
+      <description>Satoshi Fukami&amp;rsquo;s Page I&amp;rsquo;m a master&amp;rsquo;s student at Kyushu Institute of Techonology. I&amp;rsquo;m doing research at the intersection of neuroscience, nonlinear dynamics, and information science. I like Neovim and Julia</description>
     </item>
   </channel>
 </rss>
