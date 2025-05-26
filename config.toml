@@ -1,6 +1,4 @@
-#baseURL = 'https://github.com:DeepWater3104/fukamin_page/'
-baseURL = '/'
-#publishDir = 'docs'
+baseURL = 'https://deepwater3104.github.io/fukamin_page/'
 
 defaultContentLanguage = 'ja'
 defaultContentLanguageInSubdir = false
