@@ -99,7 +99,8 @@ pagination.pagerSize = 5
 
       [languages.en.params.logo]
         logoText = "Satoshi Fukami's page"
-        logoHomeLink = "https://deepwater3104.github.io/fukamin_page/"
+        #logoHomeLink = "https://deepwater3104.github.io/fukamin_page/"
+        logoHomeLink = ""
 
       [languages.en.menu]
         [[languages.en.menu.main]]
@@ -132,7 +133,7 @@ pagination.pagerSize = 5
 
       [languages.ja.params.logo]
         logoText = "深水智史のページ"
-        logoHomeLink = "https://deepwater3104.github.io/fukamin_page/"
+        logoHomeLink = ""
 
       [languages.ja.menu]
         [[languages.ja.menu.main]]
