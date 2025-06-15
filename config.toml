@@ -1,4 +1,4 @@
-baseURL = 'https://deepwater3104.github.io/fukamin_page/'
+baseURL = 'https://deepwater3104.github.io/fukamin_page'
 
 defaultContentLanguage = 'ja'
 defaultContentLanguageInSubdir = false
@@ -100,7 +100,7 @@ pagination.pagerSize = 5
       [languages.en.params.logo]
         logoText = "Satoshi Fukami's page"
         #logoHomeLink = "https://deepwater3104.github.io/fukamin_page/"
-        logoHomeLink = ""
+        logoHomeLink = "/fukamin_page"
 
       [languages.en.menu]
         [[languages.en.menu.main]]
@@ -133,7 +133,7 @@ pagination.pagerSize = 5
 
       [languages.ja.params.logo]
         logoText = "深水智史のページ"
-        logoHomeLink = ""
+        logoHomeLink = "/fukamin_page"
 
       [languages.ja.menu]
         [[languages.ja.menu.main]]
