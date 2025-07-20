@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on </title>
+    <link>http://localhost:1313/fukamin_page/page/</link>
+    <description>Recent content in Pages on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 08 Jun 2025 23:48:45 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/fukamin_page/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025年度未踏ターゲット事業(リザバーコンピューティング技術を活用したソフトウェア開発分野)に採択されました</title>
+      <link>http://localhost:1313/fukamin_page/page/mitoureservoir_2025/</link>
+      <pubDate>Sun, 08 Jun 2025 23:48:45 +0900</pubDate>
+      <guid>http://localhost:1313/fukamin_page/page/mitoureservoir_2025/</guid>
+      <description>詳細は以下を参照してください。 https://www.ipa.go.jp/jinzai/mitou/target/2025_reservoir/gaiyou-ky-3.html</description>
+    </item>
+  </channel>
+</rss>
