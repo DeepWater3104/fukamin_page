@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal</title>
+    <link>https://deepwater3104.github.io/fukamin_page/en/</link>
+    <description>Recent content on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://deepwater3104.github.io/fukamin_page/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://deepwater3104.github.io/fukamin_page/en/about/</link>
+      <pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://deepwater3104.github.io/fukamin_page/en/about/</guid>
+      <description>Satoshi Fukami&amp;rsquo;s Page I&amp;rsquo;m a master&amp;rsquo;s student at Kyushu Institute of Techonology. I&amp;rsquo;m interested in neuroscience, nonlinear dynamics, and information science. I like Neovim and Julia</description>
+    </item>
+    
+  </channel>
+</rss>
