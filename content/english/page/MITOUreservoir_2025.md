@@ -1,7 +1,7 @@
 ---
 title: "My proposal was selected for the 2025 IPA MITOU Target Project (software development utilizing reservoir computing technology)."
 date: 2025-08-04T16:32:28+09:00
-draft: false
+draft: true
 type: posts
 ---
 
