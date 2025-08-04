@@ -102,7 +102,7 @@ pagination.pagerSize = 5
 
       [languages.en.params.logo]
         logoText = "Satoshi Fukami's page"
-        logoHomeLink = "/"
+        logoHomeLink = "/fukamin_page/en"
 
       [languages.en.menu]
         [[languages.en.menu.main]]
