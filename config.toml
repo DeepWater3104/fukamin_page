@@ -108,7 +108,7 @@ pagination.pagerSize = 5
         [[languages.en.menu.main]]
           identifier = "about"
           name = "About"
-          url = "/about"
+          url = "en/about"
         #[[languages.en.menu.main]]
           #identifier = "showcase"
           #name = "Showcase"
@@ -117,6 +117,7 @@ pagination.pagerSize = 5
   [languages.ja]
     contentDir = 'content/japanese'
     languageName = '日本語'
+    title = "Terminal"
 
     [languages.ja.params]
       #subtitle = "A simple, retro theme for Hugo"
