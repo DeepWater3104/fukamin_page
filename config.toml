@@ -142,7 +142,7 @@ pagination.pagerSize = 5
         [[languages.ja.menu.main]]
           identifier = "about"
           name = "About"
-          url = "/about"
+          url = "/ja/about"
         #[[languages.ja.menu.main]]
           #identifier = "showcase"
           #name = "Showcase"
