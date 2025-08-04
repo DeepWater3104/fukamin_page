@@ -1,6 +1,8 @@
 baseURL = 'https://deepwater3104.github.io/fukamin_page/'
 publishDir = 'public/'
 
+enableRobotsTXT = true
+
 defaultContentLanguage = 'ja'
 defaultContentLanguageInSubdir = false
 disableDefaultLanguageRedirect = false
