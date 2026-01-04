@@ -2,7 +2,7 @@
 title = "オレのデスク改造計画"
 date = "2026-01-05T00:30:49+09:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-draft = true
+draft = false
 +++
 
 年末に勢いで[KVMスイッチ](https://www.ankerjapan.com/products/a83k8?srsltid=AfmBOorxgR_cX-s1KdSPEQa7Ms8T-0497jafV3xmJhmKe7M978r07zg1)を購入した．
