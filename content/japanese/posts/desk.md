@@ -5,6 +5,7 @@ date = "2026-01-05T00:30:49+09:00"
 draft = false
 +++
 
+新しい机をもらって，デスク環境整理のモチベーションが高まっている．
 年末に勢いで[KVMスイッチ](https://www.ankerjapan.com/products/a83k8?srsltid=AfmBOorxgR_cX-s1KdSPEQa7Ms8T-0497jafV3xmJhmKe7M978r07zg1)を購入した．
 こいつでラップトップとデスクトップの切り替えをシームレスにしたい．
 ラップトップの方はパススルー充電に対応している．
