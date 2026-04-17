@@ -156,9 +156,3 @@ pagination.pagerSize = 5
   # replacements = "github.com/panr/hugo-theme-terminal/v4 -> themes/terminal"
 [[module.imports]]
   path = 'terminal'
-
-  
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
