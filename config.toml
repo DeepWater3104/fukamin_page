@@ -158,5 +158,7 @@ pagination.pagerSize = 5
   path = 'terminal'
 
   
-[markup.goldmark.renderer]
-unsafe = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
