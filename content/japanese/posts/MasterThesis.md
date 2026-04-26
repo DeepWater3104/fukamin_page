@@ -1,5 +1,5 @@
 +++
-title = "修士論文発表賞に選ばれました！"
+title = "優秀修士論文発表賞に選ばれました！"
 date = "2026-04-27T05:04:29+09:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 author = ""
