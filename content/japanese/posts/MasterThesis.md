@@ -10,7 +10,7 @@ readingTime = false
 hideComments = false
 +++
 
-私の修士論文発表会における研究発表が九州工業大学 生命体工学研究科 人間知能システム工学専攻の修士論文発表賞に選ばれました！
+私の修士論文発表会における研究発表が九州工業大学 生命体工学研究科 人間知能システム工学専攻の優秀修士論文発表賞に選ばれました！
 今回発表した内容は、より内容を充実させたものを国際会議に投稿する予定です。
 {{< youtube f9TMRqQxK8Q>}}
 ![](images/PresentationAward_MasterThesis.jpg)
