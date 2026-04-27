@@ -83,7 +83,7 @@ pagination.pagerSize = 5
   [languages.en]
     contentDir = 'content/english'
     languageName = "English"
-    title = "Terminal"
+    title = "Satoshi Fukami's Page"
 
     [languages.en.params]
       #subtitle = "A simple, retro theme for Hugo"
@@ -117,7 +117,7 @@ pagination.pagerSize = 5
   [languages.ja]
     contentDir = 'content/japanese'
     languageName = '日本語'
-    title = "Terminal"
+    title = "深水智史のページ"
 
     [languages.ja.params]
       #subtitle = "A simple, retro theme for Hugo"
