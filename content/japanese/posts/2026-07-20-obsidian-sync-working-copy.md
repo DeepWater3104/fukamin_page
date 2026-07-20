@@ -44,7 +44,7 @@ iOS版の「Obsidian Git」プラグインは、内部のGitライブラリ（li
 3. **iOS版 Obsidian**
 4. **iOSアプリ「Working Copy」**（無料版でPullのみ可能。Pro版でPushも可能になります）
 5. **同期用iOSショートカット**
-   * [Sync vault for sharing](https://www.icloud.com/shortcuts/507d0c928b4949cb9c01fcbcf74ce15f) （ユーザー作成の実績があるショートカット）
+   * [Sync vault for sharing](https://www.icloud.com/shortcuts/507d0c928b4949cb9c01fcbcf74ce15f) 
 
 ---
 
@@ -68,21 +68,20 @@ PC側は「Obsidian Git」プラグインを使用して、自動同期を完全
 
 ## 📱 モバイル（iPhone/iPad）側の設定
 
-モバイル側の設定は以下の4ステップで行います。事前に空のVaultを作成しておく必要はありません。
-
+モバイル側の設定は以下の4ステップで行います。
 ### Step 1: GitHubリポジトリを Working Copy にクローンする
 1. iOSで **Working Copy** アプリを開きます。
 2. 画面右上（またはリポジトリ一覧）の **「＋」** ＞ **「Clone repository」** をタップします。
 3. GitHubのリポジトリURLを入力し、GitHubのアカウント（PAT: Personal Access Token または SSH鍵）で認証してクローンします。
-   * クローンが完了すると、Working Copy内にリポジトリ（例: `your-vault-name`）が作成されます。
+   * クローンが完了すると、Working Copy内にリポジトリが作成されます。
 
 ### Step 2: 同期用ショートカットの追加と設定
 実際に使用している同期用ショートカットをiOSにインポートし、自分の環境に合わせて設定します。
 
 1. iOSデバイスで以下のリンクをタップし、ショートカットをインポートします。
-   * 👉 [Sync vault for sharing (iCloudショートカットリンク)](https://www.icloud.com/shortcuts/507d0c928b4949cb9c01fcbcf74ce15f)
-2. ショートカットアプリで、インポートした **「Sync vault for sharing」** の編集画面を開きます。
-3. 以下の3つのアクションを設定します。
+   * 👉 [Sync vault for sharing](https://www.icloud.com/shortcuts/507d0c928b4949cb9c01fcbcf74ce15f)
+1. ショートカットアプリで、インポートした **「Sync vault for sharing」** の編集画面を開きます。
+2. 以下の3つのアクションを設定します。
 
    * **①「Pull from Repository」アクション**:
      * `Repository`（リポジトリ）の部分をタップし、**Step 1でクローンした自分のリポジトリ名（例: `your-vault-name`）** を選択します。
@@ -104,7 +103,7 @@ PC側は「Obsidian Git」プラグインを使用して、自動同期を完全
 ### Step 4: モバイル版Obsidianでの競合・エラー防止設定
 PC側から同期された「Obsidian Git」プラグインの設定がモバイル側で動作してエラーを吐くのを防ぐため、以下の設定を行います。
 
-1. iOSの **Obsidian** を開きます。
+1. iOS of **Obsidian** を開きます。
 2. 「設定」＞「コミュニティプラグイン」＞ **「Obsidian Git」** の設定を開きます。
 3. **「Disable on this device（このデバイスで無効化）」をオン** にします。
    * これにより、モバイル側ではObsidian Gitプラグインのバックグラウンド処理が停止し、安全になります。

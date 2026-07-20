@@ -32,8 +32,8 @@ To avoid these crashes and synchronization errors, this method combines the nati
 
 * **PC-Side**: The "Obsidian Git" plugin automatically commits, pushes, and pulls changes (fully automated).
 * **Mobile-Side (iOS)**: The "Working Copy" app pulls the latest changes from GitHub. An iOS Shortcut is then triggered to copy the entire repository directory into Obsidian's local storage (`On My iPhone > Obsidian`).
-  * **Benefit 1 (Crash Elimination)**: It completely resolves the app-crashing issues caused by the mobile plugin's memory limits, allowing you to manage large vaults with thousands of files without any performance hit.
-  * **Benefit 2 (Reliable Synchronization)**: While Working Copy's native "folder sync" (Link Directory to Repository) feature occasionally disconnects or triggers sync conflicts (like detached HEAD) due to iOS file provider quirks, using an iOS Shortcut to "physically overwrite and copy the folder" ensures your latest notes are reliably reflected in Obsidian on startup.
+* **Benefit 1 (Crash Elimination)**: It completely resolves the app-crashing issues caused by the mobile plugin's memory limits, allowing you to manage large vaults with thousands of files without any performance hit.
+* **Benefit 2 (Reliable Synchronization)**: While Working Copy's native "folder sync" (Link Directory to Repository) feature occasionally disconnects or triggers sync conflicts (like detached HEAD) due to iOS file provider quirks, using an iOS Shortcut to "physically overwrite and copy the folder" ensures your latest notes are reliably reflected in Obsidian on startup.
 
 ---
 
@@ -43,8 +43,8 @@ To avoid these crashes and synchronization errors, this method combines the nati
 2. **Obsidian (PC)** with the **Obsidian Git plugin** installed
 3. **Obsidian (iOS)**
 4. **Working Copy (iOS App)**
-   * The free version is sufficient for pulling (read-only sync).
-   * The Pro version (paid addon) is required if you want to push changes from mobile back to GitHub.
+ * The free version is sufficient for pulling (read-only sync).
+ * The Pro version (paid addon) is required if you want to push changes from mobile back to GitHub.
 5. **Sync iOS Shortcut**
    * 👉 [Sync vault for sharing (iCloud Shortcut Link)](https://www.icloud.com/shortcuts/507d0c928b4949cb9c01fcbcf74ce15f)
 
@@ -129,6 +129,6 @@ Now, every time you open Obsidian, the shortcut will pull the latest changes fro
 ## 🚨 Troubleshooting
 
 * **Q: I did a Force Push on my PC, and now Pull fails on mobile.**
-  * **Solution**: Working Copy will reject pulls when git histories diverge (non-fast-forward). The easiest and safest fix is to delete the repository inside the Working Copy app and clone it again from GitHub (repeat Step 1).
+	* **Solution**: Working Copy will reject pulls when git histories diverge (non-fast-forward). The easiest and safest fix is to delete the repository inside the Working Copy app and clone it again from GitHub (repeat Step 1).
 * **Q: How can I edit notes on mobile and sync them back to PC? (Two-way sync)**
-  * **Solution**: You must purchase the Pro version of Working Copy. Once upgraded, create a second shortcut for "Commit & Push" (using Working Copy's *Commit* with modified files and *Push* actions). Then, set up a new iOS Automation triggered when **"Obsidian is Closed"** to run this Commit & Push shortcut.
+	* **Solution**: You must purchase the Pro version of Working Copy. Once upgraded, create a second shortcut for "Commit & Push" (using Working Copy's *Commit* with modified files and *Push* actions). Then, set up a new iOS Automation triggered when **"Obsidian is Closed"** to run this Commit & Push shortcut.
