@@ -54,6 +54,10 @@ To avoid these crashes and synchronization errors, this method combines the nati
 
 Configure the "Obsidian Git" plugin on your PC for fully automated synchronization.
 
+> [!NOTE]
+> **If you have already configured Obsidian Git on your PC**
+> If you already have the Obsidian Git plugin set up and auto-syncing with GitHub on your PC (Mac/Windows), this step is not required. **You can skip this section** and proceed directly to [📱 Mobile-Side (iPhone/iPad) Setup](#-mobile-side-iphoneipad-setup).
+
 1. **Install Obsidian Git**
    * Open Obsidian Settings > Community Plugins, search for **Obsidian Git**, and install/enable it.
 2. **Configure Settings**
@@ -105,8 +109,6 @@ To prevent the "Obsidian Git" plugin settings synced from your PC from running o
 1. In iOS Obsidian, go to Settings > Community Plugins > **Obsidian Git**.
 2. Toggle **ON** **"Disable on this device"**.
    * This safely disables background Git processes on mobile, as all Git operations are now handled by Working Copy.
-
----
 
 ## 🔄 Setting Up Automation
 
