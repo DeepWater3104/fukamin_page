@@ -2,6 +2,7 @@
 title: "How to Sync Obsidian Between iPhone/iPad and PC (Working Copy + iOS Shortcuts)"
 date: 2026-07-20T23:40:00+09:00
 draft: false
+tags: ["Tech", "Obsidian"]
 ---
 
 This manual guides you through setting up a secure and reliable sync environment for your Obsidian Vault between your PC (Mac/Windows) and iOS devices (iPhone/iPad) using GitHub.

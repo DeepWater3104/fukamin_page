@@ -2,6 +2,7 @@
 title: "iPhone/iPadとPC間でObsidianを同期する方法（Working Copy + iOSショートカット）"
 date: 2026-07-20T23:40:00+09:00
 draft: false
+tags: ["Tech", "Obsidian"]
 ---
 
 このマニュアルでは、PC（Mac）とiOSデバイス（iPhone/iPad）の間で、GitHubを経由してObsidianの保管庫（Vault）を安全かつ確実に同期する手順をまとめています。
