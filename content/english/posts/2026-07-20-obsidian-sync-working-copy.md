@@ -63,7 +63,7 @@ Follow these 4 steps to set up sync on your iOS device. You do not need to creat
 1. Open the **Working Copy** app on your iOS device.
 2. Tap the **"+"** icon in the top right corner and select **"Clone repository"**.
 3. Enter your GitHub repository URL and authenticate using your GitHub account (Personal Access Token or SSH Key) to clone it.
-   * Once finished, the repository (e.g., `research`) will appear in Working Copy.
+   * Once finished, the repository (e.g., `your-vault-name`) will appear in Working Copy.
 
 ### Step 2: Import and Configure the iOS Shortcut
 Import the pre-configured sync shortcut and adjust the parameters for your repository.
@@ -74,10 +74,10 @@ Import the pre-configured sync shortcut and adjust the parameters for your repos
 3. Configure the following 3 actions:
 
    * **① "Pull from Repository" Action**:
-     * Tap **"Repository"** and select **your cloned repository (e.g., `research`)** from the list.
+     * Tap **"Repository"** and select **your cloned repository (e.g., `your-vault-name`)** from the list.
      * Keep `Remote` as `Default` (or `origin`).
    * **② "Get File" Action** (labeled "ファイルをひらく" in Japanese):
-     * Tap the folder icon/name and select your **repository folder (e.g., `research`)** inside Working Copy.
+     * Tap the folder icon/name and select your **repository folder (e.g., `your-vault-name`)** inside Working Copy.
    * **③ "Save File" Action** (labeled "ファイルを保存" in Japanese):
      * Set the destination directory to **`On My iPhone › Obsidian`** (or `On My iPad › Obsidian`).
      * Expand the action details and make sure **"Overwrite File"** is toggled **ON** (enabled).
@@ -87,7 +87,7 @@ Import the pre-configured sync shortcut and adjust the parameters for your repos
 ### Step 3: Open the Synced Folder in iOS Obsidian
 1. Open the **Obsidian** app on your iOS device.
 2. Tap **"Open folder as vault"**.
-3. Select the synced repository folder (e.g., `research`) inside `On My iPhone/Obsidian/`.
+3. Select the synced repository folder (e.g., `your-vault-name`) inside `On My iPhone/Obsidian/`.
 4. Your vault is now open and populated with your notes on mobile.
 
 ### Step 4: Prevent Conflicts in iOS Obsidian

@@ -61,7 +61,7 @@ PC側は「Obsidian Git」プラグインを使用して、自動同期を完全
 1. iOSで **Working Copy** アプリを開きます。
 2. 画面右上（またはリポジトリ一覧）の **「＋」** ＞ **「Clone repository」** をタップします。
 3. GitHubのリポジトリURLを入力し、GitHubのアカウント（PAT: Personal Access Token または SSH鍵）で認証してクローンします。
-   * クローンが完了すると、Working Copy内にリポジトリ（例: `research`）が作成されます。
+   * クローンが完了すると、Working Copy内にリポジトリ（例: `your-vault-name`）が作成されます。
 
 ### Step 2: 同期用ショートカットの追加と設定
 実際に使用している同期用ショートカットをiOSにインポートし、自分の環境に合わせて設定します。
@@ -72,10 +72,10 @@ PC側は「Obsidian Git」プラグインを使用して、自動同期を完全
 3. 以下の3つのアクションを設定します。
 
    * **①「Pull from Repository」アクション**:
-     * `Repository`（リポジトリ）の部分をタップし、**Step 1でクローンした自分のリポジトリ名（例: `research`）** を選択します。
+     * `Repository`（リポジトリ）の部分をタップし、**Step 1でクローンした自分のリポジトリ名（例: `your-vault-name`）** を選択します。
      * `Remote` は `Default`（または `origin`）のままで問題ありません。
    * **②「ファイルをひらく（Get File）」アクション**:
-     * フォルダのアイコン部分をタップし、Working Copy内の**自分のリポジトリフォルダ（例: `research`）** を選択します。
+     * フォルダのアイコン部分をタップし、Working Copy内の**自分のリポジトリフォルダ（例: `your-vault-name`）** を選択します。
    * **③「ファイルを保存（Save File）」アクション**:
      * 保存先として、**`On My iPhone › Obsidian`**（このiPhone内 / このiPad内 ＞ Obsidian）フォルダを指定します。
      * 詳細メニューを開き、**「上書き保存（Overwrite File）」がオン（有効）** になっていることを確認します。
@@ -85,7 +85,7 @@ PC側は「Obsidian Git」プラグインを使用して、自動同期を完全
 ### Step 3: iOS版Obsidianで同期されたフォルダを開く
 1. iOSで **Obsidian** アプリを開きます。
 2. **「Open folder as vault（フォルダを保管庫として開く）」** を選択します。
-3. `On My iPhone/Obsidian/` 内にある、ショートカットによってコピーされたフォルダ（例: `research`）を選択します。
+3. `On My iPhone/Obsidian/` 内にある、ショートカットによってコピーされたフォルダ（例: `your-vault-name`）を選択します。
 4. これでモバイル側のObsidianでノートが表示されます。
 
 ### Step 4: モバイル版Obsidianでの競合・エラー防止設定
