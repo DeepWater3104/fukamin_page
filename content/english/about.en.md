@@ -7,6 +7,6 @@ type = "page"
 
 # Satoshi Fukami's Page
 
-I'm a master's student at Kyushu Institute of Techonology.
-I'm interested in  neuroscience, nonlinear dynamics, and information science.
-I like Neovim and Julia
+I'm a 1st year PhD student at Kyushu Institute of Techonology.
+I'm interested in  neuroscience, nonlinear dynamics, and Informatics.
+I like Neovim and Julia.
