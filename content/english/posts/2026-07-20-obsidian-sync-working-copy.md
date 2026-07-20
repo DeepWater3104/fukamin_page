@@ -89,9 +89,9 @@ Import the pre-configured sync shortcut and adjust the parameters for your repos
    * **① "Pull from Repository" Action**:
      * Tap **"Repository"** and select **your cloned repository (e.g., `your-vault-name`)** from the list.
      * Keep `Remote` as `Default` (or `origin`).
-   * **② "Get File" Action** (labeled "ファイルをひらく" in Japanese):
+   * **② "Get File" Action**:
      * Tap the folder icon/name and select your **repository folder (e.g., `your-vault-name`)** inside Working Copy.
-   * **③ "Save File" Action** (labeled "ファイルを保存" in Japanese):
+   * **③ "Save File" Action**:
      * Set the destination directory to **`On My iPhone › Obsidian`** (or `On My iPad › Obsidian`).
      * Expand the action details and make sure **"Overwrite File"** is toggled **ON** (enabled).
 
