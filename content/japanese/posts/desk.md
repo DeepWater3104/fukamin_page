@@ -2,7 +2,7 @@
 title = "オレのデスク改造履歴"
 date = "2026-01-05T00:30:49+09:00"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
-draft = false
+draft = true
 +++
 
 新しい机をもらって，デスク環境整理のモチベーションが高まっている．
