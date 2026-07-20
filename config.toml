@@ -82,7 +82,7 @@ pagination.pagerSize = 5
 [languages]
   [languages.en]
     contentDir = 'content/english'
-    label = "English"
+    languageName = "English"
     title = "Satoshi Fukami's Page"
 
     [languages.en.params]
@@ -116,7 +116,7 @@ pagination.pagerSize = 5
 
   [languages.ja]
     contentDir = 'content/japanese'
-    label = '日本語'
+    languageName = '日本語'
     title = "深水智史のページ"
 
     [languages.ja.params]
