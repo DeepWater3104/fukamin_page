@@ -14,11 +14,20 @@ iOS版の「Obsidian Git」プラグインは、内部のGitライブラリ（li
 
 ## 🏗️ 構成イメージ
 
-```mermaid
-graph TD
-    PC[💻 PC: Mac / Windows] <-->|自動同期: Obsidian Git| GH[(🐙 GitHub Private Repo)]
-    GH -->|① Pull: Working Copy| WC_Loc[📦 Working Copy 内フォルダ]
-    WC_Loc -->|② コピー: ショートカット| iOS_Obs[📱 Obsidian ローカルフォルダ]
+```text
+【💻 PC (Mac / Windows)】
+       ▲ 
+       │ (自動同期: Obsidian Git)
+       ▼
+【🐙 GitHub (Private Repo)】
+       │
+       │ ① (GitHubからPull)
+       ▼
+【📦 Working Copy アプリ (iOS)】
+       │
+       │ ② (iOSショートカットで上書きコピー)
+       ▼
+【📱 Obsidian アプリ (iOSローカル)】
 ```
 
 * **PC（Mac）側**: 「Obsidian Git」プラグインを用いて、自動でコミット・プッシュ・プルを行います（完全自動同期）。

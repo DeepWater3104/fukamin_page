@@ -14,11 +14,20 @@ To avoid these crashes and synchronization errors, this method combines the nati
 
 ## 🏗️ Architecture
 
-```mermaid
-graph TD
-    PC[💻 PC: Mac / Windows] <-->|Auto Sync: Obsidian Git| GH[(🐙 GitHub Private Repo)]
-    GH -->|① Pull: Working Copy| WC_Loc[📦 Working Copy Directory]
-    WC_Loc -->|② Copy: iOS Shortcut| iOS_Obs[📱 Obsidian Local Directory]
+```text
+[💻 PC (Mac / Windows)]
+       ▲ 
+       │ (Auto Sync: Obsidian Git)
+       ▼
+[🐙 GitHub (Private Repo)]
+       │
+       │ ① (Git Pull)
+       ▼
+[📦 Working Copy App (iOS)]
+       │
+       │ ② (iOS Shortcut: Overwrite & Copy)
+       ▼
+[📱 Obsidian App (iOS Local)]
 ```
 
 * **PC-Side**: The "Obsidian Git" plugin automatically commits, pushes, and pulls changes (fully automated).
