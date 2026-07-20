@@ -150,9 +150,8 @@ pagination.pagerSize = 5
 
 
 [module]
-  # In case you would like to make changes to the theme and keep it locally in you repository,
-  # uncomment the line below (and correct the local path if necessary).
-  # --
-  # replacements = "github.com/panr/hugo-theme-terminal/v4 -> themes/terminal"
+  # Use the local theme in the `themes` directory.
+  replacements = "github.com/panr/hugo-theme-terminal/v4 -> terminal"
 [[module.imports]]
-  path = 'terminal'
+  path = 'github.com/panr/hugo-theme-terminal/v4'
+
